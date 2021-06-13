@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FuseClassroom API">
+
+    <listeners>
+        <listener class-name="frameworkListeners.TestListeners"/>
+    </listeners>
+
+
+    <test name="Setup School">
+        <classes>
+            <class name="testScripts.FuseClassroom.setup_School">
+                <!--<methods>
+                    <include name="Test001_setupSchool_ValidData"/>
+                    <include name="Test002_setupSchool_InvalidData"/>
+                    <include name="Test003_setupSchool_MultipleDepartment_validData"/>
+                    <include name="Test004_setupSchool_MultipleDepartment_InvalidData"/>
+                    <include name="Test005_modifySchool_ValidData"/>
+                    <include name="Test006_modifySchool_InvalidData"/>
+                    <include name="Test007_deleteDepartment_ValidData"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
